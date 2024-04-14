@@ -1,4 +1,4 @@
-fun main() {
+fun main(args: Array<String>) {
     var number: Int = 20
     var name = "Saket"
     val maxIntegerValue: Int = Int.MAX_VALUE
@@ -22,4 +22,12 @@ fun main() {
     var BooleanValue = true // or false
     println("char = $charValue")
     println(BooleanValue) // can also directly print 
+    val myno = 100
+    if(myno <= 150)
+        println("greater")
+    else if(myno == 100)
+        println("same")
+    else
+        println("None!")
+//    same conditional operators from C for and or and ne,e,ge, le etc
 }
