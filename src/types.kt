@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     var number: Int = 20
     var name = "Saket"
     val maxIntegerValue: Int = Int.MAX_VALUE
