@@ -22,4 +22,4 @@ fun main() {
     var BooleanValue = true // or false
     println("char = $charValue")
     println(BooleanValue) // can also directly print 
-}
+   }
