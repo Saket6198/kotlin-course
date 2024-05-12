@@ -28,6 +28,6 @@ fun main(){
         println("same")
     else
         println("None!")
-//    same conditional operators from C for and or and ne,e,ge, le etc
+// same conditional operators from C for and or and ne,e,ge, le etc
 println("result = ${x-y} and x = $x and y = $y")
 }
