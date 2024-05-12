@@ -1,14 +1,14 @@
 fun main(){
-    var x = 5
+    var x: Int = 5
     var y = 3
     var z = 3.0
-    var result = x + y
+    val result = x + y
     println("result = $result")
     println("result = ${x+y}")
     println("result = ${x-y}")
     println("result = ${x*y}")
     println("result = ${x/y}")
-    println("result = ${x/z}")
+    println("result = ${x/z}") //cannot use true division
 
     println("result = ${x%y}")
     var int = 0
@@ -17,7 +17,7 @@ fun main(){
     println("x=${x--}")
     println("x= ${--x}")
     val isActive: Boolean = true
-    if(!isActive)
+    if(isActive) //checks if the variable is set or not
         println("User is Active")
     else
         println("not Active!")
@@ -29,5 +29,5 @@ fun main(){
     else
         println("None!")
 //    same conditional operators from C for and or and ne,e,ge, le etc
-
+println("result = ${x-y} and x = $x and y = $y")
 }
